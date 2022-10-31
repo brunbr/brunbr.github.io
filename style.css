@@ -1,0 +1,224 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+
+
+        }
+        h1{
+            color:rgb(231, 230, 236);
+            text-shadow: 
+            -1px -1px 0px rgb(0, 0, 0), 
+            -1px 1px 0px rgb(0, 0, 0),                    
+             1px -1px 0px rgb(0, 0, 0),                  
+             1px 0px 0px rgb(0, 0, 0);
+        }
+
+        body{
+            width: 100%;
+            color: rgb(255, 255, 255);
+            text-shadow: 
+            -1px -1px 0px rgb(80, 78, 78), 
+            -1px 1px 0px rgb(80, 78, 78),                    
+             1px -1px 0px rgb(80, 78, 78),                  
+             1px 0px 0px rgb(80, 78, 78);
+            text-align: center;
+            min-height:100vh;
+            font-weight:bold;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .container{
+        width: 50%;
+        overflow-y: scroll;
+        height: 90vh;
+        padding: 15px 2%;
+        box-shadow: 0 0 5px#fff;
+        }
+        .container::-webkit-scrollbar{
+            width: 14px;
+            border: 1px, solid #fff;
+        }
+        .container::-webkit-scrollbar-thumb{
+            background-color: #fff;
+            border-radius: 6px;
+        }
+        .hr_dados1{
+            border-top: medium dashed
+            #069;
+            height:5px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+        }
+        .hr_dados1::after{
+            content: "Bruno Lucas Ramos";
+            font-size: 1.4em;
+            padding: 0 0.3em;
+            top: -0.7em;
+            background:  #f52828;
+            display: inline;
+            position: relative;
+
+        }
+        .hr_01{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_01::after{
+            content: 'Objetivo';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color: #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_02{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_02::after{
+            content: 'Resumo';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color:  #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_03{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_03::after{
+            content: 'Formação';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color:  #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_04{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_04::after{
+            content: 'Experiência';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color: #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_05{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_05::after{
+            content: 'Ferramentas';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color: #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_06{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_06::after{
+            content: 'Habilidades';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color:  #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_07{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_07::after{
+            content: 'Linguagens';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color: #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_08{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_08::after{
+            content: 'Redes sociais';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color:  #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .fab{
+            cursor: pointer;
+            margin: 5px;
+            max-height: 100%;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        .fab:hover{
+            -webkit-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            color: rgb(255, 0, 0);
+            
+        }
