@@ -1,4 +1,5 @@
 
+        
         *{
             margin: 0;
             padding: 0;
@@ -6,6 +7,8 @@
 
 
         }
+
+
         h1{
             color:rgb(231, 230, 236);
             text-shadow: 
@@ -118,6 +121,26 @@
             display:  inline;
             padding: 0 0.3em;
         }
+            
+
+        .hr_10{
+                border-top: medium dashed #fff;
+                border-bottom: medium dashed #fff;
+                height: 3px;
+                overflow: visible;
+                padding: 0;
+                text-align: center;
+    
+              }
+        .hr_10::after{
+                content: 'Cursos e certificados';
+                position: relative;
+                top: -0.7em;
+                font-size: 1.4em;
+                background-color:  #141414;
+                display:  inline;
+                padding: 0 0.3em;
+        }
         .hr_04{
             border-top: medium dashed #fff;
             border-bottom: medium dashed #fff;
@@ -190,6 +213,42 @@
             display:  inline;
             padding: 0 0.3em;
         }
+        .hr_07{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_07::after{
+            content: 'Idiomas';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color: #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
+        .hr_11{
+            border-top: medium dashed #fff;
+            border-bottom: medium dashed #fff;
+            height: 3px;
+            overflow: visible;
+            padding: 0;
+            text-align: center;
+
+        }
+        .hr_11::after{
+            content: 'Linguagens';
+            position: relative;
+            top: -0.7em;
+            font-size: 1.4em;
+            background-color: #141414;
+            display:  inline;
+            padding: 0 0.3em;
+        }
         .hr_08{
             border-top: medium dashed #fff;
             border-bottom: medium dashed #fff;
@@ -219,6 +278,7 @@
         .fab:hover{
             -webkit-transform: scale(1.5);
             -moz-transform: scale(1.5);
-            color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
             
         }
+
